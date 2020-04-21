@@ -43,7 +43,9 @@ int Stack :: pop(){
 }
 
 int Stack :: peek(){
-    if(Top < 0){cout<<"Stack is empty!!!"<<endl;}
+    if(Top < 0){
+		cout<<"Stack is empty!!!"<<endl;
+	}
     else{
         cout<<arr[Top]<<" element is present at top of stack"<<endl;
         return arr[Top];
